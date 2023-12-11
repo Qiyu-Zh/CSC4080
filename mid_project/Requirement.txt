@@ -1,0 +1,17 @@
+Package requirement: pytorch, albumentation,timm,seaborn,hiddenlayer,tqdm,grad-cam,cv2,tkinter
+
+data-code:
+    cam: grad-cam method to visualize
+    Dataset_BUSI：training subset
+    Chosen model: the python file used to make net-pkl
+    Image save: To visualize the images after train_transform
+    loss: focal loss
+    model: build stacking model
+    Class net: We apply the CNN in class 2,3 by this file, each time we just change method in albumentations and the model defined.
+    my dataset2: data set method for Class net
+    my dataset1: data set method for train_cnn
+    train_cnn: models in class 1, each time we change the net defined
+    resnet 18: model of resnet 18
+    upload: file to make the software
+
+Notice that you may need to change the path if you run your code in your computer
